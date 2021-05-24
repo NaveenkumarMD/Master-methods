@@ -1,6 +1,6 @@
 {
   "name": "master-methods",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Master-methods contains all the functions that simplify your code with arrays,strings,numbers and so on.",
   "main": "lib/index.js",
   "types": "lib",
@@ -21,7 +21,11 @@
     "object",
     "methods",
     "extra",
-    "functions","easy","simple","js-list","strings"
+    "functions",
+    "easy",
+    "simple",
+    "js-list",
+    "strings"
   ],
   "author": "Naveenkumar M",
   "license": "ISC",
