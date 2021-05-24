@@ -3,9 +3,9 @@ Master-methods is a javascript add-on library which has some of the additional m
 
 # usage
 ### es2015
-    const math=require('math-master')
+    const math=require('master-methods')
 ### es2016
-    import math from './math-master'
+    import math from 'master-methods'
 # Array methods
 
 ## Average
