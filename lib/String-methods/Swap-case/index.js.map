@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../src/String-methods/Swap-case/index.ts"],"names":[],"mappings":";;AAiBA,MAAM,CAAC,SAAS,CAAC,QAAQ,GAAC;IACtB,OAAO,IAAI,CAAC,OAAO,CAAC,oBAAoB,EAAE,UAAS,KAAK,EAAE,GAAG;QACzD,OAAO,GAAG,CAAC,CAAC,CAAC,KAAK,CAAC,WAAW,EAAE,CAAC,CAAC,CAAC,KAAK,CAAC,WAAW,EAAE,CAAC;IAC3D,CAAC,CAAC,CAAC;AACP,CAAC,CAAA"}

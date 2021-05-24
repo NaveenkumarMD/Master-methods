@@ -1,0 +1,31 @@
+{
+  "name": "master-methods",
+  "version": "1.0.1",
+  "description": "Master-methods contains all the functions that simplify your code with arrays,strings,numbers and so on.",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NaveenkumarMD/math-master.git"
+  },
+  "keywords": [
+    "master-methods",
+    "Math",
+    "array",
+    "object",
+    "naveenkumar",
+    "array-methods",
+    "object",
+    "methods",
+    "extra",
+    "functions","easy","simple","js-list","strings"
+  ],
+  "author": "Naveenkumar M",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}

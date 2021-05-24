@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../src/String-methods/Endswith/index.ts"],"names":[],"mappings":";;AAAA,uBAAoB;AAoBpB,MAAM,CAAC,SAAS,CAAC,QAAQ,GAAC,UAAS,KAAY;IAC3C,IAAI,KAAK,GAAC,IAAI,CAAC,MAAM,GAAC,KAAK,CAAC,MAAM,CAAC;IACnC,OAAO,KAAK,GAAC,CAAC,IAAI,IAAI,CAAC,OAAO,CAAC,KAAK,EAAC,KAAK,CAAC,GAAC,CAAC,CAAC,CAAA;AAClD,CAAC,CAAA"}
