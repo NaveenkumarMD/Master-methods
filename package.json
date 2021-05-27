@@ -1,9 +1,10 @@
 {
   "name": "master-methods",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Master-methods contains all the functions that simplify your code with arrays,strings,numbers and so on.",
   "main": "lib/index.js",
   "types": "lib",
+  "homepage": "https://js-master-methods.web.app/",
   "scripts": {
     "build": "tsc -p ."
   },
