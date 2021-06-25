@@ -29,7 +29,7 @@
     "strings"
   ],
   "author": "Naveenkumar M",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^4.2.4"
   }

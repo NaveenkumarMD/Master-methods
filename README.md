@@ -1,5 +1,5 @@
 # Docs
- Visit [Website](https://master-methods.web.app/) to learn more.
+ Visit [Website](https://js-master-methods.web.app/) to learn more.
 # About
 Master-methods is a javascript add-on library which has some of the additional methods for arrays,objectsnumbers,strings,validations  and so on.
 
