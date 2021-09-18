@@ -4,6 +4,7 @@
   "description": "Master-methods contains all the functions that simplify your code with arrays,strings,numbers and so on.",
   "main": "lib/index.js",
   "types": "lib",
+  "type":"module",
   "homepage": "https://js-master-methods.web.app/",
   "scripts": {
     "build": "tsc -p ."

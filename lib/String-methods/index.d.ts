@@ -11,4 +11,5 @@ export * from './Count';
 export * from './Alnum';
 export * from './isAplha';
 export * from './isNumeric';
+export * from './Valid';
 //# sourceMappingURL=index.d.ts.map
