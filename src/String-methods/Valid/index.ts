@@ -20,5 +20,5 @@ declare global {
     }
 }
 String.prototype.isvalid=function():boolean{
-    return this !=null && this !=undefined && this!=""
+    return this !=null && this !=undefined && this!="" && this!=" "
 }
