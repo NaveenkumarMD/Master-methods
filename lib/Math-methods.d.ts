@@ -58,6 +58,7 @@ declare function divide(a: number, b: number): number;
 /**
  * @param a:number
  * @param b:number
+ *
  * "MD"
   
  * A function that returns the modulo of given two numbers.
@@ -85,6 +86,23 @@ declare function modulo(a: number, b: number): number;
 * ```
  */
 declare function roundoff(value: number, digits: number): number;
+/**
+ * "MD"
+ * @param digits:number
+ * @param min:number
+ * @param max:number
+ *
+ *
+ * A function that returns some random number between a range and with number of digits.
+ *
+ *
+ *Example
+  * ```typescript
+  * import math from 'master-methods'
+  * console.log(math.random(3)) returns // any 3 digit value
+  * console.log(math.random(2,10,45)) returns // any 2 digit value betweeen 10 and 45
+* ```
+ */
 declare function random(digits?: number, min?: number, max?: number): number;
 export { add, subtract, multiply, modulo, divide, roundoff, random };
 //# sourceMappingURL=Math-methods.d.ts.map

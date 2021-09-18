@@ -66,6 +66,7 @@ function divide(a: number, b: number): number {
 /**
  * @param a:number
  * @param b:number
+ * 
  * "MD"
   
  * A function that returns the modulo of given two numbers.
@@ -98,6 +99,23 @@ function roundoff(value: number, digits: number): number {
     const factor: number = Math.pow(10, digits);
     return Math.round(value * factor) / factor;
 }
+/**
+ * "MD"
+ * @param digits:number
+ * @param min:number
+ * @param max:number
+ * 
+ *
+ * A function that returns some random number between a range and with number of digits.
+ * 
+ * 
+ *Example
+  * ```typescript
+  * import math from 'master-methods'
+  * console.log(math.random(3)) returns // any 3 digit value
+  * console.log(math.random(2,10,45)) returns // any 2 digit value betweeen 10 and 45
+* ```
+ */
 function random(digits?: number, min?: number, max?: number): number {
     if (min != undefined && max != undefined) return Math.floor(Math.random() * (max - min + 1)) + min;
     if (digits != undefined) {

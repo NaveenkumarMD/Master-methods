@@ -34,7 +34,5 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "master-methods": "^1.0.9"
   }
 }
