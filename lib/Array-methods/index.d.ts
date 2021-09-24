@@ -10,4 +10,6 @@ export * from './Getelements';
 export * from './MaxOccurence';
 export * from './Optimize';
 export * from './Removelements';
+export * from './isEmpty';
+export * from './Shuffle';
 //# sourceMappingURL=index.d.ts.map

@@ -18,7 +18,7 @@ declare global {
          * pass.validatePass()//returns "strong"
          * ```
          */
-        validatePass(): "strong" | "normal" | "weak";
+        validatePass(): "strong" | "normal" | "weak" | "invalid";
     }
 }
 //# sourceMappingURL=index.d.ts.map

@@ -18,10 +18,13 @@ declare global{
          * pass.validatePass()//returns "strong"
          * ```
          */
-        validatePass():"strong"| "normal" |"weak";
+        validatePass():"strong"| "normal" |"weak"| "invalid";
     }
 }
 String.prototype.validatePass=function(){
+    if (this.length==0 || this===null || this===undefined || this===" ") {
+        return "invalid"
+    }
     var special_characters=/[!"`'#%&,:;<>=@{}~\$\(\)\*\+\/\\\?\[\]\^\|]+/;
     var numbers = /[0-9]/g;
     var lowerCaseLetters = /[a-z]/g;

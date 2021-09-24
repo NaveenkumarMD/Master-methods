@@ -141,5 +141,9 @@ function random(digits?: number, min?: number, max?: number): number {
 function isPalindrome(value: number | string): boolean {
     return String(value).sreverse()==String(value) ? true :false;
 }
+
+//colors
+
+
 export { add, subtract, multiply, modulo, divide, roundoff, random }
 
