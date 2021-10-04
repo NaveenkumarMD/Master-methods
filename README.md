@@ -1,9 +1,9 @@
 # Docs
  Visit [Website](https://js-master-methods.web.app/) to learn more.
 # About
-Master-methods is a javascript add-on library which has some of the additional methods for arrays,objectsnumbers,strings,validations  and so on.
+Master-methods is a javascript add-on library which has some of the additional methods for arrays,objectsnumbers,strings,validations,color conversions  and so on.
 
-# usage
+# Usage
 ### es2015
     const math=require('master-methods')
 ### es2016
@@ -35,6 +35,8 @@ Example:
     const myarr=[1,2,3,4];
     myarr.getElements(2,x=>x%2==1);//return [1,3];
     myarr.getElements(2,-1)//return [3,4]
+
+
 ## Max
  An array method returns the **maximum value** in the given array.
 
@@ -97,7 +99,12 @@ An array method that **deletes** the duplicate elements in it.
     arr.ditinct()//returns[1,3,5,2]
     const arr=["naveen","naveen"]
     arr.distinct()//returns ["naveen] 
-  
+## Shuffle
+An array method that returns a shuffled array.
+
+    const arr=[1,2,3];
+    arr.shuffle();//returns [3,2,1] or anything;
+
 # Number-methods
 ## Armstrong
 A number method that checks whether the number is an **armstrong number** or not.
@@ -157,12 +164,50 @@ A number method that returns the **reverse of it**.
     num.reverse()//returns 4321
     num=100
     num.reverse()//returns 1
+
+# Color methods
+
+## rgbtohex
+A function which converts colors in rgb into hexadecimal value.
+
+    let a=rgbtohex(0,51,255)
+    a //returns #0033ff;
+
+## hextorgb
+A function which converts color values from  hexadecimal to rgb.
+
+    let a=hextorgb(#0033ff)
+    a //returns rgb(0,51,255) ;
+
+## randhex
+A function returns random color in hexadecimal value.
+
+    console.log(randhex())
+    return #fff43 or any color
+
+
 # String methods
 ## Reverse
 A string method that returns the **reverse** of it.
      
     var str="naveen";
     str.sreverse()//returns "neevan"
+## isValid
+A string method checks whether the string is undefiend or null or empty.
+
+    var  str=""
+    str.isValid() //returns false
+    str="naveen"
+    str.isvalid() //return true
+
+## isnull
+A String method returns whether the string is null or undefined.
+
+    var str=null
+    str.isnull() //return true
+    str="naveen"
+    str.isnull() //return false
+
 ## isEmpty
 A string method checks whether a given string is empty or not.
 
@@ -297,3 +342,12 @@ A string method that validates the mobile number.
 
     const mobile="+91 8870499146"
     mobile.validateMobile()//return true
+
+# Object methods
+
+## gettypes
+An object method which return the array of data types present in it.
+
+    const obj={a:"naveen",b:23,c:true}
+    obj.gettypes() //returns ["String","Number","Boolean"]
+
