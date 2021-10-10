@@ -3,6 +3,21 @@
 # About
 Master-methods is a javascript add-on library which has some of the additional methods for arrays,objectsnumbers,strings,validations,color conversions  and so on.
 
+# Methods
+
+## Array methods
+
+* Array methods
+* Count
+* getElements
+* Max
+* Min
+* Maxoccurence
+* Median
+* Optimise
+* Remove
+* Sortf
+
 # Usage
 ### es2015
     const math=require('master-methods')

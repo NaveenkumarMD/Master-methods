@@ -17,5 +17,5 @@ declare global{
     }
 }
 Number.prototype.isOdd=function(){    
-    return <any>this%2==0?true:false;
+    return <any>this%2==1?true:false;
 }

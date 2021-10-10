@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../src/Number-methods/Radian/index.ts"],"names":[],"mappings":";;AAgBA,MAAM,CAAC,SAAS,CAAC,QAAQ,GAAC;IACtB,OAAY,IAAI,GAAC,CAAC,IAAI,CAAC,EAAE,GAAC,GAAG,CAAC,CAAC;AACnC,CAAC,CAAA"}
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../src/Number-methods/Radian/index.ts"],"names":[],"mappings":";;AAgBA,MAAM,CAAC,SAAS,CAAC,QAAQ,GAAC;IACtB,OAAY,IAAI,GAAC,CAAC,CAAC,EAAE,GAAC,CAAC,CAAC,GAAC,GAAG,CAAC,CAAC;AAClC,CAAC,CAAA"}

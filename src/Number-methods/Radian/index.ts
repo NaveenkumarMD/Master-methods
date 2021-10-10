@@ -15,5 +15,5 @@ declare global{
     }
 }
 Number.prototype.toRadian=function():number{
-    return <any>this/(Math.PI/180);
+    return <any>this*((22/7)/180);
 }
