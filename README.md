@@ -5,18 +5,6 @@ Master-methods is a javascript add-on library which has some of the additional m
 
 # Methods
 
-## Array methods
-
-* Array methods
-* Count
-* getElements
-* Max
-* Min
-* Maxoccurence
-* Median
-* Optimise
-* Remove
-* Sortf
 
 # Usage
 ### es2015
@@ -87,6 +75,12 @@ An array method that **removes** the **element or an array of elements** from it
     const arr=["naveen","kumar","md"]
     arr.remove("naveen")//returns ["kumar","md"]
     arr.remove(["naveen","md"])//returns ["kumar"]
+## Zip
+Converts the arrays into a object with key and value.
+
+    var arr=[1,2,3]
+    var arr1=[4,5,6]
+    arr.zip(arr1) //return {1:4,2:5,3:6}
 ## Sortf
 An array method  that **sorts** the array in ascending or descending order.
 #### Params
@@ -365,4 +359,22 @@ An object method which return the array of data types present in it.
 
     const obj={a:"naveen",b:23,c:true}
     obj.gettypes() //returns ["String","Number","Boolean"]
+
+## Values
+An object method to return the values of an object.
+    
+    const obj={a:"naveen",b:23,c:true}
+    obj.values() //returns ["naveen",23,true]
+## keys
+An object method to return the keys of an object.
+    
+    const obj={a:"naveen",b:23,c:true}
+    obj.keys() //returns ['a','b','c']
+
+## concat
+An object method concat with the given object
+    
+    const obj={a:1,b:2}
+    const obj1={c:3,d:4}
+    obj.concat(obj1)//{a:1,b:2,c:3,d:4}
 

@@ -4,16 +4,15 @@ declare global {
         /**
          * MD
          *
-         * A safer method to get the elements in a object.
-         * returns null if the element is not present in it
+         * A Object method to concatenate another object.
          * Example:
          * ```
          * const obj={a:"naveen",b:23,c:true}
-         * obj.get("a")// returns "naveen"
-         * obj.get("d") //returns "null"
+         * const objb={d:"hello"}
+         * obj.concat() //returns {a:"naveen",b:23,c:true,d:"hello"}
          * ```
          */
-        get(key: any): any;
+        concat(object1: Object): Object;
     }
 }
 //# sourceMappingURL=index.d.ts.map
