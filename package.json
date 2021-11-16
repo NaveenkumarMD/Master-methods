@@ -1,0 +1,77 @@
+{
+  "version": "2.0.1",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "homepage": "https://js-master-methods.web.app/",
+  "description": "Master-methods contains all the functions that simplify your code with arrays,strings,numbers and so on.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NaveenkumarMD/Master-methods.git"
+  },
+  "keywords": [
+    "master-methods",
+    "Math",
+    "array",
+    "object",
+    "naveenkumar",
+    "array-methods",
+    "object",
+    "methods",
+    "extra",
+    "functions",
+    "easy",
+    "simple",
+    "js-list",
+    "strings"
+  ],
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "name": "master-methods",
+  "author": "Naveenkumar M",
+  "module": "dist/master-methods.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/master-methods.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/master-methods.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^6.0.4",
+    "husky": "^7.0.4",
+    "size-limit": "^6.0.4",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.4"
+  }
+}
