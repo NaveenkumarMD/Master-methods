@@ -379,4 +379,30 @@ An object method concat with the given object
     const obj={a:1,b:2}
     const obj1={c:3,d:4}
     obj.concat(obj1)//{a:1,b:2,c:3,d:4}
+## iskey
+To check whether the given value is a key of the object or not
 
+    const obj={a:1,b:2}
+    obj.iskey("a")//returns true
+
+## isvalue
+To check whether the given value is a value of the object or not
+
+    const obj={a:1,b:2}
+    obj.isvalue(1)//returns true
+## compare
+To compare the keys of the given object with the given object.
+
+    const obj={a:1,b:2}
+    const obj1={a:1,b:2}
+    obj.compare(obj1)//returns true
+## length
+To return the length of the object.
+
+    const obj={a:1,b:2}
+    obj.length()//returns 2
+## isEmpty 
+To check whether the given object is empty or not.
+
+    const obj={a:1,b:2}
+    obj.isEmpty()//returns false

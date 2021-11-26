@@ -17,6 +17,7 @@ declare global{
     }
 }
 String.prototype.validateMobile=function():boolean{
+    if(this===null || this===undefined || this==="")throw new Error("Invalid String");
     let x:any=this
     const re=/^[0-9 +]+$/i
     return re.test(x)
