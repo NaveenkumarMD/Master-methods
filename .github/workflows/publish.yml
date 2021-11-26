@@ -12,6 +12,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "14.x"
+      - name: Install dependencies
         run: yarn install
       - name: Version patch
         run: yarn version patch
